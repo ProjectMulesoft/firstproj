@@ -67,7 +67,8 @@
 		<dependency>
          		<groupId>org.mule.edi</groupId>
          		<artifactId>edi</artifactId>
-         		<version>1.2.2</version>
+         		<version>${mule.version}</version>
+			<scope>provided</scope>
      		</dependency>
 		<!-- Xml configuration -->
 		<dependency>
